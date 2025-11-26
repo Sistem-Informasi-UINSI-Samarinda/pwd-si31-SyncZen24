@@ -88,7 +88,7 @@ form button:hover {
 
             if(password_verify($password, $row['password'])){
                 $_SESSION['user_id'] = $row['id'];
-                $_SESSION['nama_lengkap'] = $row['nama_lengjkap'];
+                $_SESSION['nama_lengkap'] = $row['nama_lengkap'];
                 $_SESSION['username'] = $row['username'];
 
                 header("location: dashboard.php");
